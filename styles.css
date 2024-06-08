@@ -1,0 +1,868 @@
+   
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: auto;  
+}
+
+body{
+    width: auto;
+    font-family: "BMWTypeNext Pro Regular", sans-serif;
+    height: auto;
+}
+
+header{
+    width: auto;
+    padding: 10px; 
+    display: flex;
+    padding-left: 100px;
+    padding-top: 0px;
+    gap: 50px;
+    align-items: center;
+}
+
+header nav,a{
+    margin-top: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    
+}
+
+nav{
+    overflow: hidden;
+    width: auto;
+}
+
+header li{
+    list-style: none;
+    display: inline;
+}
+
+.head-main{
+    display: flex;
+    justify-content: space-between;
+}
+.head-main li:hover{
+    border-bottom: 3px solid blue;
+}
+.header-cont2{
+    margin-left: 230px;
+    padding-left:40px;
+    height: 100%;
+  
+}
+.header-cont2 li{
+    margin:  7px;
+    width: 5px;
+    height: 100px;
+}
+
+.phone{
+    bottom: 12.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column-reverse;
+    pointer-events: none;
+    position: fixed;
+    right: 3.5rem;
+    z-index: 6040;
+}
+.phone a{
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0 .375rem 1.25rem 0 rgba(0, 0, 0, .16), 0 0 .0625rem 0 rgba(0, 0, 0, .24);
+    color: #262626;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: none;
+    transition: all .3s ease;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 3.25rem;
+    justify-content: center;
+    margin-left: auto;
+    opacity: 1;
+    pointer-events: auto;
+    width: 3.25rem;
+    font-weight: 700;
+    font-size: 20px;
+}
+.phone i{
+    display: inline-flex;
+    font-size: 1.5rem;
+    color: #242424;
+    cursor: pointer;
+}
+
+.phone a:hover{
+    background-color: #999;
+}
+
+#myBtn {
+    bottom: 16.5rem;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column-reverse;
+    pointer-events: none;
+    position: fixed;
+    right: 3.5rem;
+    z-index: 6040;
+}
+
+#myBtn a{
+    background-color: #fff;
+    border: 0;
+    box-shadow: 0 .375rem 1.25rem 0 rgba(0, 0, 0, .16),0 0 .0625rem 0  rgba(0, 0, 0, .24);
+    color: #262626;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 0;
+    text-decoration: none;
+    transition: all .3s ease;
+    align-items: center;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    height: 3.25rem;
+    justify-content: center;
+    margin-left: auto;
+    opacity: 1;
+    pointer-events: auto;
+    width: 3.25rem;
+    font-weight: 700;
+}
+
+#myBtn a:hover{
+    background-color: #999;
+}
+
+.line-main{
+    width: 100%;
+    height: 3px;
+    padding-left: 100px;
+}
+.line-main div{
+    width: 88%;
+    height: 2px;
+    background: #fff;
+}
+.himg{
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+}
+
+.containar video{
+    position: absolute;
+    right: 01px;
+    bottom: 0;
+    z-index: -1;
+}
+#bgvideo{
+    width: 100%;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+
+}
+@media (min-aspect-ratio :16/9){
+    .bgvideo{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio :16/9){
+    .bgvideo{
+        width: auto;
+        height: 100%;
+    }
+}
+.containar{
+    width: auto;
+    height: auto;
+}
+
+.sheer{
+    padding: 18px 100px 0px;
+    color: #fff;
+    font-weight: 300;
+    line-height: 0px;
+    font-size: 16px;
+}
+
+.ever{
+    margin: 100px 0px 0px 0px;
+}
+
+.ever p{
+    color: #fff;
+    padding: 10px 0px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.i5{
+    padding-left: 0%;
+    width: auto;
+    height: auto;
+    font-weight: normal;
+}
+h3{
+    font-size: 200px;
+    line-height: 176px;
+    color: #fff;
+    font-weight: 100;
+}
+main{
+    width: auto;
+    margin: 0px 0px auto 100px;
+    display: flex;
+    justify-items: space-between;
+}
+
+main img{
+    height: 20px;
+    margin-inline-end: 1rem;
+}
+
+.m60{
+    display: flex;
+    font-size: 10px;
+    color: #fff;
+    margin: 15px 0px 15px 0px;
+}
+h1{
+    font-weight: normal;
+    word-spacing: 2px;
+}
+
+button{
+    background-color: #1c69d4;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 2.5rem;
+    padding: 1.5rem;
+    text-align: center;
+    line-height: 0px;
+    font-family: "BMWTypeNext Pro Regular", sans-serif;
+}
+
+button a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color:#0653b6;
+    color: #fff;
+}
+.gift{
+    width: auto;
+    height: 760px;
+    z-index: 0;
+}
+
+
+
+
+.section2{
+    width: 100%;
+    height: 500px;
+    margin-top: 200px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    color: #fff;
+    float:left;
+}
+
+.section2 img{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    float: left;
+}
+
+h2{
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 1.25rem;
+}
+
+.sec2-con h1{
+    font-size: 64px;
+    font-weight: normal;
+}
+
+.sec2-con div:nth-child(3) h2{
+    font-size: 24px;
+    letter-spacing: 0;
+    font-weight: normal;
+    line-height: 26px;
+}
+.sec2-con div:last-child{
+    margin: 20px 0px 0px 0px;
+}
+
+
+
+
+.section3{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    position: relative;
+    padding-left: 100px;
+    display: grid;
+    
+}
+.sec3-1{
+    width: 100%;
+    height: auto;
+}
+
+.sec3-1 h3{
+    font-size: 14px;
+    color: #666;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: 2.8px;
+}
+
+.sec3-1 h2{
+    font-size: 50px;
+    color: black;
+    line-height: 80px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+.sec3-1 div{
+    margin: 5px;
+    display: grid;
+    justify-content: center;
+}
+
+.sec3-inner-div{
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin: 4px;
+    display: grid;
+    justify-items: center;
+}
+.sec3-inner-div img{
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.sec3-inner-div h4{
+    font-size: 20px;
+    line-height: 28px;
+}
+
+
+.sec3-inner-div button{
+    background-color: transparent;
+    border: 1px solid #262626;
+    color: #262626;
+    font-size: 18px;
+    line-height: 0px;
+    font-weight: 600;
+    height: 40px;
+}
+
+.sec3-inner-div button:hover{
+    border-color: #262626;
+    border-width: 1.5px;
+    box-shadow: inset 0 0 0 1px;
+}
+
+
+.section4{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    color: #fff;
+}
+
+.section4 .back-img{
+    width: 100%;
+    height: auto;
+    z-index: -1;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+     top: 0;
+    bottom: 0;
+    position: absolute;
+}
+
+.sec4-con div:nth-child(2){
+    display: flex;
+}
+
+.sec4-con h3{
+    font-size: 32px;
+    line-height: 40px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+.sec4-con div:nth-child(2) img{
+    height: 20px;
+    margin-inline-end: 1rem;
+    width: auto;
+}
+
+.sec4-con h2{
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+.sec4-con button{
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    color: #262626;
+    font-size: 18px;
+    font-weight: 600;
+    height: 16px;
+    line-height: 0;
+    margin: 20px 0px 0px 0px;
+}
+
+.sec4-con button:hover{
+    border-color: #fff;
+    border-width: 1px;
+    box-shadow: inset 0 0 0 2px #fff;
+}
+.sec4-con div:last-child {
+    width: 340%;
+    height: 150px;
+    display: flex;
+    justify-items: end;
+    align-items: end;
+}
+.sec4-con div:last-child img{
+    width: 50%;
+    height: 100px;
+    margin-left: 80%;
+}
+
+.gift1{
+    width: auto;
+    height: 460px;
+}
+
+
+
+.section5{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    color: #fff;
+}
+
+.section5 img{
+    width: 100%;
+    height: 440px;
+    z-index: -1;
+    object-fit: cover;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;;
+}
+
+.section5 h2{
+    font-size: 48px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    line-height: 64px;
+}
+
+.section5 button{
+    background-color: transparent;
+    border: 1.5px solid #fff;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 16px;
+    line-height: 0;
+    margin: 50px 0px 0px 0px;
+    width: 230px;
+}
+
+.section5 button:hover{
+    border-color: #fff;
+    border-width: 1px;
+    box-shadow: inset 0 0 0 2px #fff;
+}
+
+.gift2{
+    width: auto;
+    height: 460px;
+}
+
+
+
+.section6{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+
+.section6 .img-div{
+    width: 45%;
+    height: 318px;
+    float: left;
+    background-image: url(https://bmw.scene7.com/is/image/BMW/iX_Banner:16to9?fmt=webp&wid=1504&hei=846);
+    background-size: cover;
+
+
+}
+
+.section6 .con-div{
+    float: left;
+    width: 49%;
+    height: 390px;
+    margin-left: 2%;
+}
+
+.con-div h3{
+    color: #666;
+    font-size: .875rem;
+    font-weight: 700;
+    letter-spacing: .175rem;
+    line-height: 1.25rem;
+
+}
+
+.con-div h2{
+    color: #262626;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
+
+.con-div p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #262626;
+
+}
+
+.con-div div:nth-child(1){
+    margin:70px 0px 0px 0px
+}
+
+.con-div div div{
+    margin: 10px 0px 0px 0px;
+}
+
+.con-div button{
+    background-color: transparent;
+    border: 1.5px solid #262626;
+    color: #262626;
+    font-size: 18px;
+    font-weight: 600;
+    height: 16px;
+    line-height: 0;
+    margin: 30px 0px 0px 0px;
+    width: 160px;
+}
+
+.con-div button:hover{
+    border-color: #262626;
+    border-width: 1.5px;
+    box-shadow: inset 0 0 0 1px;
+}
+
+
+.section7{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    padding-left: 100px;
+    padding-right: 50px;
+}
+
+
+.section7 .imgdiv{
+    width: 45%;
+    height: 318px;
+    float: left;
+    background-image: url(Images/bmw5.jpeg);
+    background-size: cover;
+
+
+}
+
+.section7 .condiv{
+    float: left;
+    width: 49%;
+    height: 390px;
+    margin-left: 2%;
+}
+
+.condiv h3{
+    color: #666;
+    font-size: .875rem;
+    font-weight: 700;
+    letter-spacing: .175rem;
+    line-height: 1.25rem;
+
+}
+
+.condiv h2{
+    color: #262626;
+    font-size: 3rem;
+    line-height: 4rem;
+    font-weight: 300;
+}
+
+.condiv p{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #262626;
+
+}
+
+.condiv div:nth-child(1){
+    margin:50px 0px 0px 0px
+}
+
+.condiv div div{
+    margin: 10px 0px 0px 0px;
+}
+
+.condiv button{
+    background-color: transparent;
+    border: 1.5px solid #262626;
+    color: #262626;
+    font-size: 18px;
+    font-weight: 600;
+    height: 16px;
+    line-height: 0;
+    margin: 20px 0px 0px 0px;
+    width: 160px;
+}
+
+.condiv button:hover{
+    border-color: #262626;
+    border-width: 1.5px;
+    box-shadow: inset 0 0 0 1px;
+}
+
+.gift3{
+    width: 100%;
+    height: 338px;
+}
+
+footer{
+    width: auto;
+    height: auto;
+}
+
+.f1{
+    width: 100%;
+    border-top: 1px solid rgb(177, 175, 175);
+}
+
+.f1 div{
+    display: flex;
+    margin: 0px 0px 4px 100px;
+    padding: 32px 0px 16px 0px;
+
+}
+
+.f1 p{
+    padding-top: 4px;
+    margin-right: 32px;
+    margin-bottom: 12px;
+    white-space: nowrap;
+    width: auto;
+    font-size: .625rem;
+    font-weight: 300;
+    letter-spacing: .125rem;
+    line-height: 12px;
+    position: relative;
+
+}
+
+.f1 ul{
+    flex-wrap: nowrap;
+    margin: -.75rem;
+    overflow: auto;
+    padding: .75rem;
+    width: 100%;
+    list-style: none;
+}
+
+.f1 li{
+    margin-bottom: .75rem;
+    font-size: .875rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.f1 a{
+    color: #262626;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.f1 a:hover{
+    color: #0653b6;
+}
+
+.f2{
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 245, 245);
+}
+
+.f2 div div:nth-child(1){
+    display: flex;
+    flex-direction: row ;
+    gap: 75px;
+}
+
+.f2 div{
+    margin-left: 32px;
+    padding-top: 1.5rem;
+}
+
+.f2 p{
+    color: #4d4d4d;
+    font-size: .625rem;
+    font-weight: 300;
+    letter-spacing: .125rem;
+    line-height: .75rem;
+    margin-bottom: 1rem;
+}
+
+.f2 ul{
+    list-style: none;
+}
+
+.f2 li{
+    color: #4d4d4d;
+    margin-bottom: .75rem;
+    font-size: .875rem;
+    font-weight: 600;
+    line-height: 1.25rem;
+}
+
+.f2 a{
+    text-decoration: none;
+    color: #4d4d4d;
+}
+
+.f2 a:hover{
+    color: #262626;
+    border-bottom: none;
+}
+
+.media-icons ul{
+    display:flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-left: 40px;
+}
+
+.media-icons li{
+    margin-right: .75rem;
+    margin-bottom: .75rem;
+    color: #4d4d4d;
+    font-size: .999rem;
+    line-height: 1.25rem;
+}
+
+.f3{
+    width: 100%;
+    height: auto;
+}
+
+.f3-m{
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-between;
+    height: 65px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.f3 ul{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.f3 li{
+    list-style: none;
+}
+
+.f3-m div:nth-child(2){
+    margin-right: 100px;
+}
+
+.f3 p{
+    font-size: .75rem;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.f3 a{
+    text-decoration: none;
+    color: #4d4d4d;
+    font-size: .75rem;
+    font-weight: 700;
+    line-height: 1.25rem;
+}
+
+.f3 a:hover{
+    color: #006efd;
+}
